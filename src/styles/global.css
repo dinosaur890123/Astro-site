@@ -5,17 +5,17 @@
 body {
 	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
-	background: #f5f5f5;
-	color: #222;
+	background: #eaf2ff;
+	color: #222222;
 	line-height: 1.5;
 }
 
 a {
-	color: #0066cc;
+	color: #1a5fb4;
 }
 
 a:hover {
-	color: #004a99;
+	color: #0b3d91;
 }
 
 img {
@@ -36,11 +36,12 @@ img {
 
 .page-header h1 {
 	margin: 20px 0 10px;
+	color: #1f2937;
 }
 
 .page-header .tagline {
 	margin: 0;
-	color: #555;
+	color: #4b5563;
 }
 
 .home {
@@ -53,7 +54,7 @@ img {
 }
 
 .posts-page .empty {
-	color: #666;
+	color: #6b7280;
 }
 
 .posts {
@@ -63,15 +64,20 @@ img {
 
 .post-card {
 	background: #fff;
-	border: 1px solid #ddd;
+	border: 1px solid #cbd5e1;
 	padding: 16px;
 	margin-bottom: 12px;
+}
+
+.post-card {
+	border-left: 6px solid #1a5fb4;
 }
 
 .post-card .title-link {
 	display: inline-block;
 	font-weight: bold;
 	margin-bottom: 6px;
+	color: #1f2937;
 }
 
 .post-card .description {
@@ -80,7 +86,7 @@ img {
 
 .post-card .meta {
 	margin: 0;
-	color: #666;
+	color: #6b7280;
 	font-size: 0.95rem;
 }
 
@@ -88,11 +94,11 @@ img {
 	display: inline-block;
 	margin-top: 16px;
 	padding: 10px 14px;
-	background: #0066cc;
+	background: #1a5fb4;
 	color: #fff;
 	text-decoration: none;
 }
 
 .posts-link:hover {
-	background: #004a99;
+	background: #0b3d91;
 }
