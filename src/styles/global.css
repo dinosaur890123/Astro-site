@@ -1,0 +1,98 @@
+:root {
+	--max-width: 900px;
+}
+
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background: #f5f5f5;
+	color: #222;
+	line-height: 1.5;
+}
+
+a {
+	color: #0066cc;
+}
+
+a:hover {
+	color: #004a99;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.page-shell {
+	min-height: 100vh;
+	padding: 20px;
+}
+
+.page-header {
+	max-width: var(--max-width);
+	margin: 0 auto 20px;
+	text-align: center;
+}
+
+.page-header h1 {
+	margin: 20px 0 10px;
+}
+
+.page-header .tagline {
+	margin: 0;
+	color: #555;
+}
+
+.home {
+	text-align: center;
+}
+
+.posts-page {
+	max-width: var(--max-width);
+	margin: 0 auto;
+}
+
+.posts-page .empty {
+	color: #666;
+}
+
+.posts {
+	max-width: var(--max-width);
+	margin: 0 auto;
+}
+
+.post-card {
+	background: #fff;
+	border: 1px solid #ddd;
+	padding: 16px;
+	margin-bottom: 12px;
+}
+
+.post-card .title-link {
+	display: inline-block;
+	font-weight: bold;
+	margin-bottom: 6px;
+}
+
+.post-card .description {
+	margin: 6px 0;
+}
+
+.post-card .meta {
+	margin: 0;
+	color: #666;
+	font-size: 0.95rem;
+}
+
+.posts-link {
+	display: inline-block;
+	margin-top: 16px;
+	padding: 10px 14px;
+	background: #0066cc;
+	color: #fff;
+	text-decoration: none;
+}
+
+.posts-link:hover {
+	background: #004a99;
+}
